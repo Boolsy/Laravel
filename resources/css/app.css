@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://res.cloudinary.com/crakerss/image/upload/c_scale,q_auto:good,w_1440/v1502969988/CDF.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.col-md-8 {
+    max-height: 85vh;
+    overflow: auto;
+}
+
+.container {
+    max-height: 85vh;
+    overflow: auto;
+    color: white;
+}
