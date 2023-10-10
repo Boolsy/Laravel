@@ -8,7 +8,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 * PHP (version recommandée : [8.2])
 * Composer (pour la gestion des dépendances PHP)
-* Wamp (pour la gestion mysql)
+* Wamp (pour la gestion de la base de donnée)(version MySQL recommandée : [8.0.31])
 * Node.js et npm (pour la gestion des dépendances JavaScript)
 
 
