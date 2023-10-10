@@ -18,11 +18,11 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',         // Nom de l'utilisateur.
-        'email',        // Adresse e-mail de l'utilisateur.
-        'password',     // Mot de passe de l'utilisateur.
-        'role',         // Rôle de l'utilisateur.
-        'lastlogin',    // Date et heure de la dernière connexion de l'utilisateur.
+        'name',
+        'email',
+        'password',
+        'role',
+        'lastlogin',
     ];
 
     /**
@@ -31,8 +31,8 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $hidden = [
-        'password',          // Masque le mot de passe.
-        'remember_token',    // Masque le jeton de rappel.
+        'password',
+        'remember_token',
     ];
 
     /**
@@ -41,8 +41,8 @@ class User extends Authenticatable
      * @var array<string, string>
      */
     protected $casts = [
-        'email_verified_at' => 'datetime', // Convertit la colonne 'email_verified_at' en un type de date et heure.
-        'password' => 'hashed',           // Indique que le mot de passe est haché.
+        'email_verified_at' => 'datetime',
+        'password' => 'hashed',
     ];
 
     /**

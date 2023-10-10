@@ -18,7 +18,7 @@ class CreateAdminAndRandomUsers extends Command
 
     public function handle()
     {
-        // Demandez à l'utilisateur les informations de l'administrateur
+        // Demande à l'utilisateur les informations de l'administrateur
         $name = $this->ask('Saisir le nom de l\'utilisateur admin');
         $email = $this->ask('Saisir l\'adresse email pour l\'admin');
         $password = $this->secret('Saisir le mot de passe de l\'admin');
